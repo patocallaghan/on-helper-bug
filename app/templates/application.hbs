@@ -1,7 +1,6 @@
 {{page-title "OnHelperBug"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+{{!-- <button {{on-document "click" this.onDocumentClick}}>Click me</button> --}}
+<button {{on this.document "click" this.onDocumentClick}}>Click me</button>
 
 {{outlet}}
